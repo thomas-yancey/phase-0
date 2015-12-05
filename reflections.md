@@ -20,3 +20,21 @@ Here is my attempt to get through the commands off the top of my head
 - rm removes or deletes a file
 - help - this one I had to run to find out - it appears to list alot of available bash functions and can be used for more info.
 
+###1.4 Forking and Cloning Reflection
+steps to creating a new repo
+- log into your github account
+- click the + icon in the top right corner of the page and select new repository
+- fill out the required and select your customizations
+- when naming your repository use a naming convention of first-second-third
+steps to fork a repository
+- make sure you are logged into your Github account
+- go to the desired repo you want to fork
+- click the fork button in the top right corner of the page under your profile icon
+steps for cloning a repository
+- go to the repository you would like to clone
+- copy the git path that is in the HTTPS box above the repository contents
+- open your terminal and cd into the directory you would like to make the clone
+- type “git clone” and than paste the git path you had just copied
+- you may have to enter a password for your Github account
+
+in setting up git and Github in this lesson I did not struggle too much. The setup came off as pretty straight forward. The portion I struggled with the most was the diagram early on in the video. conceptually it was difficult to wrap my head around the different stages of the branches but I hope to understand with practice.
