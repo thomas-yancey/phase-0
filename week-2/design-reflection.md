@@ -1,3 +1,4 @@
+Site Map
 ![Site-Map](imgs/site-map.png "Site Map")
 
 ##What are the 6 Phases of Web Design?

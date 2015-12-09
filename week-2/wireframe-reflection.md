@@ -1,9 +1,13 @@
+##Index Wireframe
 ![wireframe-index](imgs/wireframe-index.png "Wireframe index")
+
+##Blog Index Wireframe
 ![wireframe-blog-index](imgs/wireframe-blog-index.png "Wireframe blog index")
 
 ##What is a wireframe?
 A wireframe is a visual representation of what your webpage(s) is going to look like. It is a tool used to help you define the importance of your information, and allows you to visually represent your idea without to much effort.
 ##What are the benefits of wireframing?
+Wireframing allows you to actually see a rough layout of what your site will eventually look like. Too often people just start coding away on a site with just an idea in their head without ever actually taking a look at it. If you jot it down to paper or using an online tool first you can check to see whether it is feasible, whether it will work with your content and have a strong reference for what you are trying to build.
 
 
 ##Did you enjoy wireframing your site?
