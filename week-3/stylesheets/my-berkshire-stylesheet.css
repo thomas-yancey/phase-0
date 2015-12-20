@@ -1,0 +1,84 @@
+html {color: #000080;}
+
+body {background-color: #ffffff;}
+
+a {color: #800080;}
+
+a:visited {color: #ff0000;}
+
+dd {
+    display: list-item;
+    list-style-type: disc;
+    font-size: 10px;
+    margin-left: 0px;
+    }
+
+.leftcol {
+  float: left;
+  width: 45%;
+  }
+
+.rightcol {
+  float: right;
+  width: 45%;
+}
+
+li {height: 60px;}
+
+#berkshire {
+  text-align: center;
+  font-weight: bold;
+}
+
+#street {
+  text-align: center;
+  font-weight: bold;
+}
+
+#omaha {
+  text-align: center;
+  font-weight: bold;
+}
+
+#home {
+  text-align: center;
+  font-weight: bold;
+}
+
+.big {font-size: 40px;}
+
+#geico {clear: both;}
+
+#img {text-align: center;}
+
+#gline1 {text-align: center;}
+
+#gline2 {text-align: center;}
+
+.hline {
+  border-bottom: 1px solid gray;
+  margin:10px 0px 10px 0px;
+        }
+
+#smaller {font-size: 12px;}
+
+#incsmall {font-size: 12px;}
+
+/*
+ - What is important to know when linking an external file (like a stylesheet) to an HTML file?
+  make sure to get your path relative to where your html file is saved, syntax for linking is below
+    <link type="text/css" rel="stylesheet" href="stylesheet_directory/stylesheet.css">
+
+ - What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+  My partner and I used divs and sections and applied floats as a percentage of the whole page. This site was not too complicated and the floats worked the first time as we wanted them too.
+
+ - What CSS did you use to modify the element style (like size, color, etc.)
+  we used pseudoselectors on the links, as far as values we changed we used font-size, font-weight and text-align frequently.
+
+ - Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+  We used both, for elements we were only going to change one of, we used id. For elements we would change more of, we used class.
+
+ - When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+  I think some elements of ours were cleaner and some elements of the source were cleaner. I would have liked to utilize the dt table more, but we could not figure out how to have that include bullet points.
+
+*/
