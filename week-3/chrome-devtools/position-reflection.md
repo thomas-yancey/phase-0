@@ -1,3 +1,22 @@
+####Change the Colors
+  !["1.png"](imgs/1.png "1")
+####Column
+  !["2.png"](imgs/2.png "1")
+####Row
+  !["3.png"](imgs/3.png "1")
+####Make Equidistant
+  !["4.png"](imgs/4.png "1")
+####Squares
+  !["5.png"](imgs/5.png "1")
+####Footer
+  !["6.png"](imgs/6.png "1")
+####Header
+  !["7.png"](imgs/7.png "1")
+####Sidebar
+  !["8.png"](imgs/8.png "1")
+####Get Creative
+  !["9.png"](imgs/9.png "1")
+
 ##How can you use Chrome's DevTools inspector to help you format or position elements?
   using the style.element when you select an element you want to change. This way you can test changes prior to changing the actual CSS file and see realtime updates.
 
