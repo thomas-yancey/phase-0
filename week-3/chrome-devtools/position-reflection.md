@@ -38,5 +38,3 @@
 
 ##What was your impression of this challenge overall? (love, hate, and why?)
   I really enjoyed this challenge, it started out easy and then got significantly harder. It pointed out my weaknesses in CSS and also taught me somethings I was confused about such as fixing a navbar to the top.
-  
-  !["1.png"](imgs/1.png "1")
