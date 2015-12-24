@@ -32,6 +32,6 @@ puts 60 * 24 * 365 * 10
 ##How was this challenge? Did you get a good review of some of the basics?
     This challenge was relatively easy to me only because I have read this book before in preparation to applying. Still it is always good to go back and refresh my memory on the material.
     
-[defining-variables ruby file!](defining-variables.rb)
-[simple-string ruby file!](simple-strings.rb)
-[basic-math ruby file!](basic-math.rb)
+###[defining-variables ruby file!](defining-variables.rb)
+###[simple-string ruby file!](simple-strings.rb)
+###[basic-math ruby file!](basic-math.rb)
