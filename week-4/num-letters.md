@@ -9,8 +9,8 @@
     but round down to the nearest integer --> 10 / 3.0 == 3.3333333 while 10 / 3 == 3
 
 ##Program to calculate and print on seperate lines number of hours in a year and the number of minutes in a decade
-puts 24 * 365
-puts 60 * 24 * 365 * 10
+```puts 24 * 365
+puts 60 * 24 * 365 * 10```
 
 ##How does Ruby handle addition, subtraction, multiplication, and division of numbers?
     Ruby handles all math functions in the same way a calculator does. In order to get the 
@@ -31,7 +31,8 @@ puts 60 * 24 * 365 * 10
 ##What are local variables? Why and when would you use them?
     Variables are the way in which you assign a value to a name (syntax: variable_name = value) . local
     variables are variables that live within a method. They are used to store values within your program,
-    they can be variables that do do not need to leave your method and can help store earlier values in functions. 
+    they can be variables that do do not need to leave your method and can help store earlier values 
+    in functions. 
 
 ##How was this challenge? Did you get a good review of some of the basics?
     This challenge was relatively easy to me only because I have read this book before in preparation 
