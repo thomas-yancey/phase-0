@@ -8,11 +8,11 @@
     division with floats is more specific, giving you the actual answer. Division with integers will do the same but round down to the nearest integer --> 10 / 3.0 == 3.3333333 while 10 / 3 == 3
 
 ##Program to calculate and print on seperate lines number of hours in a year and the number of minutes in a decade
-...
+'''
 
 puts 24 * 365
 puts 60 * 24 * 365 * 10
-...
+'''
 
 ##How does Ruby handle addition, subtraction, multiplication, and division of numbers?
     Ruby handles all math functions in the same way a calculator does. In order to get the fully accurate answer use floats. To return a value with no decimals rounded down use integers.
