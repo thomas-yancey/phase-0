@@ -15,22 +15,29 @@ puts 60 * 24 * 365 * 10
 '''
 
 ##How does Ruby handle addition, subtraction, multiplication, and division of numbers?
-    Ruby handles all math functions in the same way a calculator does. In order to get the fully accurate answer use floats. To return a value with no decimals rounded down use integers.
+    Ruby handles all math functions in the same way a calculator does. In order to get the 
+    fully accurate answer use floats. To return a value with no decimals rounded down use integers.
 
 ##What is the difference between integers and floats?
-    As stated above floats have decimal points while integers do not. If you divide integers you will return a number with no decimals regardless of whether a standard computation would produce them or not. 
+    As stated above floats have decimal points while integers do not. If you divide integers 
+    you will return a number with no decimals regardless of whether a standard computation would 
+    produce them or not. 
 
 ##What is the difference between integer and float division?
-    Integer division returns a number rounded down to the nearest whole number. Float division returns the precise answer with decimals.
+    Integer division returns a number rounded down to the nearest whole number. Float division 
+    returns the precise answer with decimals.
 
 ##What are strings? Why and when would you use them?
     Strings are all text. You would use them to output information (possibly return results of a form submission)
 
 ##What are local variables? Why and when would you use them?
-    Variables are the way in which you assign a value to a name (syntax: variable_name = value) . local variables are variables that live within a method. They are used to store values within your program, they can be variables that do do not need to leave your method and can help store earlier values in functions. 
+    Variables are the way in which you assign a value to a name (syntax: variable_name = value) . local
+    variables are variables that live within a method. They are used to store values within your program,
+    they can be variables that do do not need to leave your method and can help store earlier values in functions. 
 
 ##How was this challenge? Did you get a good review of some of the basics?
-    This challenge was relatively easy to me only because I have read this book before in preparation to applying. Still it is always good to go back and refresh my memory on the material.
+    This challenge was relatively easy to me only because I have read this book before in preparation 
+    to applying. Still it is always good to go back and refresh my memory on the material.
     
 ###[defining-variables ruby file!](defining-variables.rb)
 ###[simple-string ruby file!](simple-strings.rb)
