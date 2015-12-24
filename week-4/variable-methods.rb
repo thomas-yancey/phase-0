@@ -44,9 +44,9 @@ What was confusing about this material? What made sense?
     for the interview. I did trip up a few times running rspec files.
     
     link to address challenge
-    https://github.com/thomas-yancey/phase-0/tree/master/week-4/address
+    https://github.com/thomas-yancey/phase-0/tree/master/week-4/address/my_solution.rb
     
     link to math challenge
-    https://github.com/thomas-yancey/phase-0/tree/master/week-4/math
+    https://github.com/thomas-yancey/phase-0/tree/master/week-4/math/my_solution.rb
    
 =end
