@@ -32,12 +32,16 @@ What is the difference between a local variable and a method?
     a local variable is a name used to reference a value, a method is a name to reference a code block
 
 How do you run a ruby program from the command line?
-    first make sure the file is saved as a .rb file. From the terminal make sure you lead to the path of the file or are currently in the directory housing the file. Simply have ruby followed by a space followed by the filename.(ex. ruby ruby_file.rb)
+    first make sure the file is saved as a .rb file. From the terminal make sure you lead to the path
+    of the file or are currently in the directory housing the file. Simply have ruby followed by a space
+    followed by the filename.(ex. ruby ruby_file.rb)
 
 How do you run an RSpec file from the command line?
-    Everything the same as a ruby file except when executing the file have rspec in the space of ruby (ex rspec spec_file.rb). Also make sure the rspec gem is installed.
+    Everything the same as a ruby file except when executing the file have rspec in the space of ruby (
+    ex rspec spec_file.rb). Also make sure the rspec gem is installed.
 What was confusing about this material? What made sense?
-    This material was pretty straightforward to me only because I have read this book in preparation for the interview. I did trip up a few times running rspec files.
+    This material was pretty straightforward to me only because I have read this book in preparation 
+    for the interview. I did trip up a few times running rspec files.
     
-    ADD LINKS HERE
+   
 =end
