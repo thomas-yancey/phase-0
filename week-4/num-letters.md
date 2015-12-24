@@ -5,14 +5,12 @@
     A float is a number with decimal points, a integer is a number without decimal points. 
     
 ##What is the difference between float and integer division? How would you explain the difference to someone who doesn't know anything about programming?
-    division with floats is more specific, giving you the actual answer. Division with integers will do the same but round down to the nearest integer --> 10 / 3.0 == 3.3333333 while 10 / 3 == 3
+    division with floats is more specific, giving you the actual answer. Division with integers will do the same 
+    but round down to the nearest integer --> 10 / 3.0 == 3.3333333 while 10 / 3 == 3
 
 ##Program to calculate and print on seperate lines number of hours in a year and the number of minutes in a decade
-'''
-
 puts 24 * 365
 puts 60 * 24 * 365 * 10
-'''
 
 ##How does Ruby handle addition, subtraction, multiplication, and division of numbers?
     Ruby handles all math functions in the same way a calculator does. In order to get the 
