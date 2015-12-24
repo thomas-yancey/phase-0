@@ -43,5 +43,10 @@ What was confusing about this material? What made sense?
     This material was pretty straightforward to me only because I have read this book in preparation 
     for the interview. I did trip up a few times running rspec files.
     
+    link to address challenge
+    https://github.com/thomas-yancey/phase-0/tree/master/week-4/address
+    
+    link to math challenge
+    https://github.com/thomas-yancey/phase-0/tree/master/week-4/math
    
 =end
