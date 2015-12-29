@@ -1,3 +1,52 @@
-body {
-  background-color: yellow;
+header {
+  background-color: #3366FF;
+}
+
+header h1 {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5% 0% 0% 2%;
+}
+
+header p {
+  background-color: #CCFFFF;
+  padding: 2% 0% 3% 2%;
+}
+
+.column-1 {
+  float:left;
+  width: 40%;
+  padding: 0% 0% 0% 4%;
+}
+
+.column-2 {
+  float: right;
+  width: 40%;
+  padding:0% 8% 0% 0%;
+}
+
+article {
+  padding: 5% 0% 5% 0%;
+}
+
+details {
+  background-color: #C8C8C8;
+}
+details {
+  background-color: #E0E0E0;
+
+}
+details p {
+  background-color: #E0E0E0;
+}
+
+footer {
+  clear: both;
+  background-color: gray;
+  padding: 5% 0% 0% 2%;
+}
+
+footer p {
+  padding: 3% 0% 2% 0%;
 }
