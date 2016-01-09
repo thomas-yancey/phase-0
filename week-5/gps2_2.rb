@@ -51,13 +51,12 @@ end
 puts add_item(grocery_hash, "tomato", 4)
 
 def remove_item(list, item, quantity=nil)
-  case quantity
-    when nil
-      list.delete(item)
-    when (list[item] - quantity) <= 0
-      list.delete(item)
-    else
-      list[item] -= quantity
+  if quantity.nil?
+    list.delete(item)
+  elsif (list[item] - quantity) <= 0
+    list.delete(item)  
+  else 
+    list[item] -= quantity
   end
   list
 end
