@@ -103,3 +103,11 @@ p recipe_counter("cookie", 10)
 # p serving_size_calc("THIS IS AN ERROR", 5)
 
 #  Reflection
+# What did you learn about making code readable by working on this challenge?
+ # Naming variables appropriately is just as important as refactoring itself
+# Did you learn any new methods? What did you learn about them?
+ # Nothing specifically but got more comfortable with hashes
+# What did you learn about accessing data in hashes?
+ # That it can be straightforward and very powerful
+# What concepts were solidified when working through this challenge?
+ # my confidence in hashes
