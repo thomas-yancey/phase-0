@@ -116,6 +116,7 @@
 class BingoBoard
 
   attr_reader :bingo_letters
+  attr_accessor :selection
 
   def initialize(board)
     @bingo_board = board
@@ -123,14 +124,12 @@ class BingoBoard
   end
 
   def generate_bingo_selection
-    letter = @bingo_letters[rand(0..4)]
-    number = rand(1..100)
-    "#{letter}#{number}"
+    @selection = "#{@bingo_letters[rand(0..4)]}#{rand(1..100)}"
   end
 
-  def check_if_selection_on_board(selection)
-
-    answer_arr = selection.split("")
+  def check_if_selection_on_board
+    raise ArgumentError.new("No bingo selection generated yet") if @selection.nil?
+    answer_arr = @selection.split("")
     letter, number = answer_arr.shift, answer_arr.join.to_i
     column = @bingo_letters.index(letter)
 
@@ -196,16 +195,16 @@ class BingoBoard
   def play_game
     bingo = false
     until bingo
-      current_selection = generate_bingo_selection
-      puts "The next number is #{current_selection}\n"
+      generate_bingo_selection
+      puts "The next number is #{@selection}\n"
 
-      if check_if_selection_on_board(current_selection) == true
-        puts "You have #{current_selection}"
+      if check_if_selection_on_board
+        puts "You have #{@selection}"
         print_board
         bingo = true if won?
         sleep(0.2)
       else
-        puts "You do not have #{current_selection}"
+        puts "You do not have #{@selection}"
       end
       puts
     end
@@ -216,16 +215,18 @@ end
 
 def true_board_generator
   board = []
+  5.times {board << [] }
   start_count = 1
-  5.times do
-    row = []
-    5.times do
-      row << rand(start_count..(start_count + 14))
-    end
-    board << row
+  idx = 0
+
+  until idx >= board.size
+    board.each {|row| row[idx] = rand(start_count..(start_count + 14)) }
     start_count += 14
+    idx += 1
   end
+
   board
+
 end
 
 #DRIVER CODE (I.E. METHOD CALLS) GO BELOW THIS LINE
@@ -236,11 +237,12 @@ board = [[47, 44, 71, 8, 88],
         [75, 70, 54, 80, 83]]
 
 game = BingoBoard.new(true_board_generator)
+game.print_board
 game.play_game
 
-# new_game = BingoBoard.new(board)
-# p new_game.check_if_selection_on_board("B22")
-# new_game.play_game
+new_game = BingoBoard.new(board)
+p new_game.check_if_selection_on_board
+new_game.play_game
 
 
 #Reflection
@@ -272,8 +274,8 @@ game.play_game
   # variable I created was the bingo_letters array because I was going to need to access that twice
 
 # What do you feel is most improved in your refactored solution?
-  # Well for the parts that relate to the actual parameters of this challenge not too much improvement was
-  # made. But I did go ahead and make a solver or player for this game that I was able to refactor a bit,
-  # still a tad messy but I think it is readable.
+  # I decided to switch the generate_bingo_selection to a one liner, I also made @selection an instance
+  # variable so I did not have to call it in a method. I did go ahead and make a solver or player for
+  # this game that I was able to refactor a bit, still a tad messy but I think it is readable.
 
 
