@@ -2,7 +2,7 @@
 
 
 # I worked on this challenge [by myself, with: ].
-# I spent [#] hours on this challenge.
+# I spent .75 hours on this challenge.
 
 # Pseudocode
 
@@ -70,10 +70,14 @@
     end
   end
 
-
-
-
-
-
-
 # Reflection
+# What was the most difficult part of this challenge for you and your pair?
+  # I mostly had difficulty because I did not fully read the algorithm, my
+  # pair was navigating though and was quick to point out my mistakes in
+  # implementing it.
+
+# What new methods did you find to help you when you refactored?
+  # I used reduce on both implementations to sum everything up quickly
+
+# What concepts or learnings were you able to solidify in this challenge?
+  # Still just getting better at implementing classes.
