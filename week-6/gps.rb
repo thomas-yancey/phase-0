@@ -1,8 +1,8 @@
 # Your Names
-# 1)
+# 1)Thomas Yancey
 # 2)
 
-# We spent [#] hours on this challenge.
+# We spent [1] hours on this challenge.
 
 # Bakery Serving Size portion calculator.
 
