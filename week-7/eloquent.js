@@ -46,9 +46,14 @@ console.log(chessboard);
 // Complete the `minimum` exercise.
 function minimum(num1, num2) {
   return (num1 > num2 ? num2 : num1)
-}
+};
 
-console.log(minimum(19,19))
+console.log(minimum(19,19));
 
 // Data Structures: Objects and Arrays
 // Create an object called "me" that stores your name, age, 3 favorite foods, and a quirk below.
+var me = {
+  name: "Thomas Yancey",
+  favoriteFoods: ["Pizza", "Pasta", "Bread"],
+  quirk: "One of my three favorite foods is bread"
+};
