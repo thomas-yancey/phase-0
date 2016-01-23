@@ -32,18 +32,17 @@ console.log(mean(list))
 // middle value if there are an even count of numbers, or return the average of
 // the two most middle numbers if there are an odd amount of numbers.
 
-var list = [4,5,6,63,12,7,9]
+var list = [4,5,6,63,12,14,12,7,9]
 
 function med(array) {
 
     var middleIndex = Math.floor(array.length / 2)
-
     array.sort(function(a, b){return a - b;});
 
     if (array.length % 2) {
       return array[middleIndex]}
       else {
-      return ((array[middleIndex] + array[middleIndex + 1])/ 2)}
+      return ((array[middleIndex - 1] + array[middleIndex]) / 2)}
 }
 
  console.log(med(list));
