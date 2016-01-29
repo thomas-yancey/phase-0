@@ -1,62 +1,45 @@
-var makeNoise = function() {
-  console.log("Noise");
-}
-makeNoise();
-
-var power = function(base, exponent) {
-  var num = 1;
-  for (var i = 0; i < exponent; i++) num *= 2;
-    console.log(num);
-}
-power(2,10);
-
-var landscape = function() {
-  var result = "";
-  var flat = function(size) {
-    for (var count =  0; count < size; count++)
-      result += "_";
-  };
-  var mountain = function(size) {
-    result += "/";
-    for (var count = 0; count < size; count++ )
-      result += "!";
-    result += "\\";
-  };
-
-  flat(3);
-  flat(3);
-  flat(3);
-  mountain(5);
-  flat(3);
-  return result;
-}
-
-// console.log(landscape());
-
-// function chicken() {
-//   return egg();
+// function fizzBuzz(x,y,topNum){
+//   var fizzString = "";
+//   for (var i = 1; i < topNum + 1; i++){
+//     if (i % x == 0 && i % y == 0) {
+//       fizzString = fizzString + "FB ";
+//     } else if (i % x == 0) {
+//       fizzString = fizzString + "F ";
+//     } else if (i % y == 0) {
+//       fizzString = fizzString + "B ";
+//     } else {
+//       fizzString = fizzString + i + " ";
+//     }
+//   }
+//   return fizzString.slice(0,-1) + "\n";
 // }
 
-// function egg() {
-//   return chicken();
-// }
+// console.log(fizzBuzz(3,5,16));
+// console.log(Number("22"));
 
-// console.log(chicken() + " came first.");
-
-function padding(size,current) {
-  for (var i = String(current).length; i < size; i++)
-    current = "0" + current;
-  return current;
+function padRight(num){
+  var padded = num.toString();
+  while (padded.length < 4) {
+    padded = " " + padded;
+  }
+  return padded;
 }
 
-function printFarmInventory(cows, chickens) {
-  console.log(padding(4,cows));
-  console.log(padding(3,chickens));
+var multipleArray = [[1,2,3,4,5,6,7,8,9,10,11,12]]
+for (var i = 0; i < 11; i++){
+  var array = [];
+  for (var x = 0; x < 12; x++){
+    array.push(multipleArray[i][x] + multipleArray[0][x]);
+  }
+  multipleArray.push(array);
 }
-printFarmInventory(10,12);
 
-function minimum(num1, num2) {
-  return (num1 > num2 ? num2 : num1)
+var arrayString = ""
+for (arr in multipleArray){
+  for (i = 0; i < 12; i++){
+    arrayString = arrayString + padRight(multipleArray[arr][i])
+  }
+  arrayString = arrayString + "\n";
 }
+console.log(arrayString.slice(0,-1));
 
-console.log(minimum(19,19))

@@ -1,8 +1,11 @@
 var readline = require('readline');
+var rl = readline.createInterface(process.stdin, process.stdout);
+rl.setPrompt('guess> ');
 
-var r1 = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
+rl.on('line', function(line) {
+    if (line === "right") rl.close();
+      rl.prompt();
+    process.exit(0);
 });
 
 function game(player1,player2){
@@ -34,19 +37,21 @@ function game(player1,player2){
 newGame = new game("Thomas","Steven");
 console.log(newGame.player1.name)
 
-var question = r1.question("What Move do you want to make " + newGame.player1.name + ": ", function(answer){
-  var answerArr = answer.split("");
-  var idx1 = newGame.rowLetters.indexOf(answerArr[0]);
-  var idx2 = answerArr[1];
-  newGame.board[idx1][idx2] = newGame.player1.marker;
-  r1.close();
-});
+// var question = r1.question("What Move do you want to make " + newGame.player1.name + ": ", function(answer){
+//   var answerArr = answer.split("");
+//   var idx1 = newGame.rowLetters.indexOf(answerArr[0]);
+//   var idx2 = answerArr[1];
+//   newGame.board[idx1][idx2] = newGame.player1.marker;
+//   r1.close();
+// });
 
 for (var turn = 0; turn < 9; turn++){
   console.log(newGame.display());
-  if (turn == 0 || turn % 2 == 0){
-    question;
-  };
+  rl.on('line', function(line) {
+    if (line === "right") rl.close();
+      rl.prompt();
+    process.exit(0);
+  });
   newGame.display;
 }
 
