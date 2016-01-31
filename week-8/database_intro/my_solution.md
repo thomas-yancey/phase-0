@@ -1,7 +1,10 @@
-### 1. SELECT * FROM states;
-### 2. SELECT * FROM regions;
-### 3. SELECT state_name,populations
-###    FROM states;
+### 1.
+SELECT * FROM states;
+### 2.
+SELECT * FROM regions;
+### 3.
+SELECT state_name,populations
+FROM states;
 ### 4. SELECT state_name,population FROM states
 ###    ORDER BY population DESC;
 ### 5.SELECT state_name FROM states
