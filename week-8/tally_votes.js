@@ -96,9 +96,13 @@ console.log(officers);
 // __________________________________________
 // Reflection
 // What did you learn about iterating over nested objects in JavaScript?
-  // It can get really confusing when
+  // It can get really confusing when you are working with deeply nested objects
+  // Special focus should be given to naming variables appropriately and descriptively
+  // when looping through data.
 // Were you able to find useful methods to help you with this?
+  // We did not use anything too fancy with this just mostly for loops.
 // What concepts were solidified in the process of working through this challenge?
+  // How to access elements and how to use a counter in a really useful practical way.
 
 
 
