@@ -30,3 +30,5 @@ FROM states
 INNER JOIN regions
 ON states.region_id=regions.id
 ORDER BY regions.id;
+
+[schema screenshot](./schema_screenshot.png)
