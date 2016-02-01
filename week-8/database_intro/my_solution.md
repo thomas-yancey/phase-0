@@ -3,10 +3,10 @@ SELECT * FROM states;
 ### 2.
 SELECT * FROM regions;
 ### 3.
-SELECT state_name,populations
-FROM states;
-### 4. SELECT state_name,population FROM states
-###    ORDER BY population DESC;
+SELECT state_name,populations FROM states;
+### 4.
+SELECT state_name,population FROM states..
+ORDER BY population DESC;
 ### 5.SELECT state_name FROM states
 ###   WHERE region_id=7;
 ### 6.SELECT state_name,population_density FROM states
