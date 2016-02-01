@@ -25,4 +25,4 @@ ORDER BY population DESC;
 ###     ORDER BY regions.id;
 
 ![schema screenshot](schema_screenshot.png)
-![Site-Map](./schema_screenshot.png "Site Map")
+![Site-Map](schema_screenshot.png "Site Map")
