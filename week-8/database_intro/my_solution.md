@@ -24,4 +24,5 @@ ORDER BY population DESC;
 ###     ON states.region_id=regions.id
 ###     ORDER BY regions.id;
 
-![schema screenshot](./schema_screenshot.png)
+![schema screenshot](schema_screenshot.png)
+![Site-Map](./schema_screenshot.png "Site Map")
