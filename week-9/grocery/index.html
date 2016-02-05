@@ -1,0 +1,33 @@
+<!doctype HTML>
+<head>
+  <link rel="stylesheet" href="./stylesheet.css" type="text/css">
+  <title>Grocery</title>
+</head>
+
+<body>
+  <div id="container">
+    <h1>Grocery List</h1>
+    <form id="add-item">
+      <input type="text" name="item" id="item" /><p> Add item</p>
+      <input type="text" name="count" id="count" /><p> how many?</p>
+    </form>
+    <button onclick="addItem()">Add</button>
+
+    <form id="update-item">
+      <input type="text" name="item" id="item" /><p> change item count</p>
+      <input type="text" name="count" id="count" /><p> new count</p>
+    </form>
+    <button onclick="updateItem()">Update</button>
+
+    <form id="remove-item">
+      <input type="text" name="item" id="item" /><p> Delete item</p>
+    </form>
+    <button onclick="deleteItem()">Delete</button>
+
+    <ul id="grocery-test"></ul>
+  </div>
+
+
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
