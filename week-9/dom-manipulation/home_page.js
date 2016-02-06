@@ -36,3 +36,8 @@ var temp = document.getElementById("hidden")
 document.body.appendChild(temp.content.cloneNode(true));
 
 // reflection
+// What did you learn about the DOM?
+  // How incredibly useful it is to make interactive websites, how to append nodes,
+  // remove nodes and so forth
+// What are some useful methods to use to manipulate the DOM?
+  // appendChild, getElementById getElementsByTagName getElementsByClassName
